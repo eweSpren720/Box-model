@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model 4</title>
+</head>
+<body>
+    <div class="div1"></div>
+
+    <div class="div2">
+        <p>
+        <font color="white">Hello world</font>
+
+        </p>
+    </div>
+    <div class="div3">
+
+        <div class="div4"></div>
+    </div>
+    <div class="div5"></div>
+
+    <style>
+            .div1{
+                width: 600px;
+                height: 40px;
+                background-color: rgb(42, 64, 75);
+                margin-left: 30px;
+                margin-top: 10px;
+                border-width: 5px;
+                border-style: double;
+                padding: 16px;
+                border-color: rgb(255, 0, 255);
+            }
+
+            .div2{
+                width: 600px;
+                height: 50px;
+                background-color: rgb(132, 6, 132);
+                border-width: 10px;
+                border-style: outset;
+                padding: 16px;
+                border-color: rgb(0, 0, 0);
+            }
+            .div3{
+                width: 200px;
+                height: 200px;
+                background-color: rgb(23, 32, 23);
+                border-width: 10px;
+
+            }
+            .div4{
+                width: 20px;
+                height: 20px;
+                position: relative;
+                top: 75px;
+                left: 75px;
+                background-color: rgb(75, 78, 57);
+                border-width: 10px;
+                border-style: dotted;
+            }
+            .div5{
+                width: 750px;
+                height: 550px;
+                opacity: 0.8;
+                background-color: #00006e;
+                opacity: 0.8;
+                background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #000000 10px ), repeating-linear-gradient( #000bdd55, #8385b5 );
+            }
+    </style>
+
+
+</body>
+</html>
